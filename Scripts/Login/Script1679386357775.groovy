@@ -25,6 +25,8 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('Login/Input username'), 'Admin')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Login/Input password'), 'admin123')
 
 WebUI.click(findTestObject('Login/click login'))
