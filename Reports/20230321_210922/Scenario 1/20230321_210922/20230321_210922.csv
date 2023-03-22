@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario 1,Chrome 111.0.0.0,,,2023-03-21 21:09:25,2023-03-21 21:10:37,1m - 12.184s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 111.0.0.0,,,2023-03-21 21:09:26,2023-03-21 21:09:51,24.843s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 111.0.0.0,,,2023-03-21 21:09:26,2023-03-21 21:09:40,14.079s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-21 21:09:40,2023-03-21 21:09:41,0.487s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-21 21:09:41,2023-03-21 21:09:44,3.039s,PASSED
+"setText(findTestObject(""Login/Input username""), ""Admin"")",Chrome 111.0.0.0,,,2023-03-21 21:09:44,2023-03-21 21:09:46,1.960s,PASSED
+"setText(findTestObject(""Login/Input password""), ""admin123"")",Chrome 111.0.0.0,,,2023-03-21 21:09:46,2023-03-21 21:09:48,2.135s,PASSED
+"click(findTestObject(""Login/click login""))",Chrome 111.0.0.0,,,2023-03-21 21:09:48,2023-03-21 21:09:51,2.688s,PASSED
+,,,,,,,
+Test Cases/Menu PIM Input,Chrome 111.0.0.0,,,2023-03-21 21:10:29,2023-03-21 21:10:37,8.622s,FAILED
+"click(findTestObject(""Menu PIM/click PIM""))",Chrome 111.0.0.0,,,2023-03-21 21:10:29,2023-03-21 21:10:30,1.540s,PASSED
+"click(findTestObject(""Menu PIM/click add""))",Chrome 111.0.0.0,,,2023-03-21 21:10:30,2023-03-21 21:10:32,1.723s,PASSED
+"setText(findTestObject(""Menu PIM/Input-firstname""), ""abc"")",Chrome 111.0.0.0,,,2023-03-21 21:10:32,2023-03-21 21:10:35,2.595s,PASSED
+"setText(findTestObject(""Menu PIM/Input middlename""), ""def"")",Chrome 111.0.0.0,,,2023-03-21 21:10:35,2023-03-21 21:10:36,0.896s,PASSED
+"setText(findTestObject(""Menu PIM/Input lastname""), ""ghi"")",Chrome 111.0.0.0,,,2023-03-21 21:10:36,2023-03-21 21:10:37,0.977s,PASSED
+"uploadFile(findTestObject(""Menu PIM/file upload""), ""Nitas-Air:\\Downloads\\Dokumen Kelengkapan 2\\KTP.jpeg"")",Chrome 111.0.0.0,,,2023-03-21 21:10:37,2023-03-21 21:10:37,0.871s,FAILED

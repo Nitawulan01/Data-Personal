@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario 1,Chrome 111.0.0.0,,,2023-03-21 16:23:34,2023-03-21 16:25:47,2m - 12.637s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 111.0.0.0,,,2023-03-21 16:23:34,2023-03-21 16:24:20,45.388s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 111.0.0.0,,,2023-03-21 16:23:35,2023-03-21 16:24:06,31.451s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-21 16:24:06,2023-03-21 16:24:07,0.508s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-21 16:24:07,2023-03-21 16:24:10,3.044s,PASSED
+"setText(findTestObject(""Login/Input username""), ""Admin"")",Chrome 111.0.0.0,,,2023-03-21 16:24:10,2023-03-21 16:24:17,7.727s,PASSED
+"setText(findTestObject(""Login/Input password""), ""admin123"")",Chrome 111.0.0.0,,,2023-03-21 16:24:17,2023-03-21 16:24:19,1.150s,PASSED
+"click(findTestObject(""Login/click login""))",Chrome 111.0.0.0,,,2023-03-21 16:24:19,2023-03-21 16:24:20,1.122s,PASSED
+,,,,,,,
+Test Cases/Menu PIM Input,Chrome 111.0.0.0,,,2023-03-21 16:25:45,2023-03-21 16:25:47,1.103s,FAILED
+"click(findTestObject(""Menu PIM/click PIM""))",Chrome 111.0.0.0,,,2023-03-21 16:25:45,2023-03-21 16:25:47,1.084s,FAILED

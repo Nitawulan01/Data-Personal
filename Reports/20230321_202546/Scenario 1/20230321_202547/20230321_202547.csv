@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario 1,Chrome 111.0.0.0,,,2023-03-21 20:25:50,2023-03-21 20:27:06,1m - 15.507s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 111.0.0.0,,,2023-03-21 20:25:51,2023-03-21 20:26:20,28.981s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 111.0.0.0,,,2023-03-21 20:25:51,2023-03-21 20:26:10,18.423s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-21 20:26:10,2023-03-21 20:26:10,0.485s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-21 20:26:10,2023-03-21 20:26:13,3.032s,PASSED
+"setText(findTestObject(""Login/Input username""), ""Admin"")",Chrome 111.0.0.0,,,2023-03-21 20:26:13,2023-03-21 20:26:15,2.083s,PASSED
+"setText(findTestObject(""Login/Input password""), ""admin123"")",Chrome 111.0.0.0,,,2023-03-21 20:26:15,2023-03-21 20:26:17,2.004s,PASSED
+"click(findTestObject(""Login/click login""))",Chrome 111.0.0.0,,,2023-03-21 20:26:17,2023-03-21 20:26:20,2.547s,PASSED
+,,,,,,,
+Test Cases/Menu PIM Input,Chrome 111.0.0.0,,,2023-03-21 20:26:57,2023-03-21 20:27:06,9.191s,FAILED
+"click(findTestObject(""Menu PIM/click PIM""))",Chrome 111.0.0.0,,,2023-03-21 20:26:57,2023-03-21 20:26:58,1.414s,PASSED
+"click(findTestObject(""Menu PIM/click add""))",Chrome 111.0.0.0,,,2023-03-21 20:26:58,2023-03-21 20:27:00,1.657s,PASSED
+"setText(findTestObject(""Menu PIM/Input-firstname""), ""abc"")",Chrome 111.0.0.0,,,2023-03-21 20:27:00,2023-03-21 20:27:02,2.591s,PASSED
+"setText(findTestObject(""Menu PIM/Input middlename""), ""def"")",Chrome 111.0.0.0,,,2023-03-21 20:27:02,2023-03-21 20:27:03,1.024s,PASSED
+"setText(findTestObject(""Menu PIM/Input lastname""), ""ghi"")",Chrome 111.0.0.0,,,2023-03-21 20:27:03,2023-03-21 20:27:04,1.172s,PASSED
+"click(findTestObject(""Menu PIM/click upload image""))",Chrome 111.0.0.0,,,2023-03-21 20:27:04,2023-03-21 20:27:05,0.689s,PASSED
+"uploadFile(findTestObject(""Menu PIM/file upload""), ""Download\\Dokumen Kelengkapan 2\\KTP.jpeg"")",Chrome 111.0.0.0,,,2023-03-21 20:27:05,2023-03-21 20:27:06,0.620s,FAILED

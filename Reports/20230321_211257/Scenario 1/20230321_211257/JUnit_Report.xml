@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario 1" time="44.224" tests="2" failures="0" errors="0">
+   <testsuite name="Scenario 1" tests="2" failures="0" errors="0" time="44.224" skipped="0" timestamp="2023-03-21 21:13:00" hostname="nita - nitas-air.lan" id="Test Suites/Scenario 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nita/Desktop/Data-Personal/Reports/20230321_211257/Scenario 1/20230321_211257"/>
+         <property name="logFiles" value="/Users/nita/Desktop/Data-Personal/Reports/20230321_211257/Scenario 1/20230321_211257/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nita - nitas-air.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.180"/>
+         <property name="sessionId" value="d51532aaddc3717026a3f6af7dd600e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="22.909" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-03-21 21:13:00 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-03-21 21:13:01 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2023-03-21 21:13:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-21 21:13:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-21 21:13:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2023-03-21 21:13:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-21 21:13:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-21 21:13:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-21 21:13:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-21 21:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Login/Input username'
+
+2023-03-21 21:13:20 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Input username'
+
+2023-03-21 21:13:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input password"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/Input password'
+
+2023-03-21 21:13:22 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/Input password'
+
+2023-03-21 21:13:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/click login")): Object: 'Object Repository/Login/click login' is clicked on
+
+2023-03-21 21:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/click login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu PIM Input" time="20.848" classname="Test Cases/Menu PIM Input" status="PASSED">
+         <system-out><![CDATA[2023-03-21 21:13:23 - [TEST_CASE][PASSED] - Test Cases/Menu PIM Input: Test Cases/Menu PIM Input
+
+2023-03-21 21:13:24 - [TEST_STEP][PASSED] - click(findTestObject("Menu PIM/click PIM")): Object: 'Object Repository/Menu PIM/click PIM' is clicked on
+
+2023-03-21 21:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu PIM/click PIM' is clicked on
+
+2023-03-21 21:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Menu PIM/click add")): Object: 'Object Repository/Menu PIM/click add' is clicked on
+
+2023-03-21 21:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu PIM/click add' is clicked on
+
+2023-03-21 21:13:38 - [TEST_STEP][PASSED] - setText(findTestObject("Menu PIM/Input-firstname"), "abc"): Text 'abc' is set on object 'Object Repository/Menu PIM/Input-firstname'
+
+2023-03-21 21:13:41 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Menu PIM/Input-firstname'
+
+2023-03-21 21:13:41 - [TEST_STEP][PASSED] - setText(findTestObject("Menu PIM/Input middlename"), "def"): Text 'def' is set on object 'Object Repository/Menu PIM/Input middlename'
+
+2023-03-21 21:13:42 - [MESSAGE][PASSED] - Text 'def' is set on object 'Object Repository/Menu PIM/Input middlename'
+
+2023-03-21 21:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Menu PIM/Input lastname"), "ghi"): Text 'ghi' is set on object 'Object Repository/Menu PIM/Input lastname'
+
+2023-03-21 21:13:44 - [MESSAGE][PASSED] - Text 'ghi' is set on object 'Object Repository/Menu PIM/Input lastname'
+
+2023-03-21 21:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Menu PIM/click save")): Object: 'Object Repository/Menu PIM/click save' is clicked on
+
+2023-03-21 21:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu PIM/click save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-21 21:13:00 - [TEST_SUITE][PASSED] - Scenario 1: Test Cases/Menu PIM Input]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

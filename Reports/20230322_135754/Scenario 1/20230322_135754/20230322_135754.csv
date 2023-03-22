@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario 1,Chrome 111.0.0.0,,,2023-03-22 13:57:57,2023-03-22 13:58:50,53.064s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 111.0.0.0,,,2023-03-22 13:57:58,2023-03-22 13:58:27,28.789s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 111.0.0.0,,,2023-03-22 13:57:58,2023-03-22 13:58:14,15.976s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-22 13:58:14,2023-03-22 13:58:18,3.444s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 13:58:18,2023-03-22 13:58:21,3.042s,PASSED
+"setText(findTestObject(""Login/Input username""), ""Admin"")",Chrome 111.0.0.0,,,2023-03-22 13:58:21,2023-03-22 13:58:22,1.429s,PASSED
+"setText(findTestObject(""Login/Input password""), ""admin123"")",Chrome 111.0.0.0,,,2023-03-22 13:58:22,2023-03-22 13:58:24,2.051s,PASSED
+"click(findTestObject(""Login/click login""))",Chrome 111.0.0.0,,,2023-03-22 13:58:24,2023-03-22 13:58:27,2.404s,PASSED
+,,,,,,,
+Test Cases/Menu PIM Input,Chrome 111.0.0.0,,,2023-03-22 13:58:27,2023-03-22 13:58:50,23.845s,PASSED
+"click(findTestObject(""Menu PIM/click PIM""))",Chrome 111.0.0.0,,,2023-03-22 13:58:27,2023-03-22 13:58:33,6.174s,PASSED
+"click(findTestObject(""Menu PIM/click add""))",Chrome 111.0.0.0,,,2023-03-22 13:58:33,2023-03-22 13:58:38,5.392s,PASSED
+"setText(findTestObject(""Menu PIM/Input-firstname""), ""abc"")",Chrome 111.0.0.0,,,2023-03-22 13:58:38,2023-03-22 13:58:41,2.601s,PASSED
+"setText(findTestObject(""Menu PIM/Input middlename""), ""def"")",Chrome 111.0.0.0,,,2023-03-22 13:58:41,2023-03-22 13:58:42,0.709s,PASSED
+"setText(findTestObject(""Menu PIM/Input lastname""), ""ghi"")",Chrome 111.0.0.0,,,2023-03-22 13:58:42,2023-03-22 13:58:43,1.105s,PASSED
+"click(findTestObject(""Menu PIM/click save""))",Chrome 111.0.0.0,,,2023-03-22 13:58:43,2023-03-22 13:58:44,0.962s,PASSED
+"click(findTestObject(""Menu PIM/click emp list""))",Chrome 111.0.0.0,,,2023-03-22 13:58:44,2023-03-22 13:58:45,1.628s,PASSED
+"setText(findTestObject(""Menu PIM/Input emp name""), ""A"")",Chrome 111.0.0.0,,,2023-03-22 13:58:45,2023-03-22 13:58:48,2.431s,PASSED
+"setText(findTestObject(""Menu PIM/Input emp id""), ""01"")",Chrome 111.0.0.0,,,2023-03-22 13:58:48,2023-03-22 13:58:49,1.184s,PASSED
+"click(findTestObject(""Menu PIM/Input emp status""))",Chrome 111.0.0.0,,,2023-03-22 13:58:49,2023-03-22 13:58:50,0.780s,PASSED
+"click(findTestObject(""Menu PIM/click search""))",Chrome 111.0.0.0,,,2023-03-22 13:58:50,2023-03-22 13:58:50,0.589s,PASSED
